@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import DataLoader
-from model import MyLLM
-from data_process import process_and_load_dataset, cwd_parent
+from new_model import MyLLM
+from huggingface_dataset import process_and_load_dataset, cwd_parent
 from tqdm import tqdm
 import math
 import os
